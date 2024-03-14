@@ -26,6 +26,7 @@ def play_audio(file):
     mixer.music.play()
     while mixer.music.get_busy():  # wait for the audio to finish
         time.sleep(0.1)
+        print(a)
 
 def translate(text):
     # text = "9 1 1, what's your emergency?"
